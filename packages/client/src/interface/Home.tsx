@@ -1,4 +1,4 @@
-import { Match, Show, Switch } from "solid-js";
+import { Match, Show, Switch, For, createMemo } from "solid-js";
 
 import { Trans } from "@lingui-solid/solid/macro";
 import { PublicChannelInvite } from "stoat.js";
@@ -88,6 +88,70 @@ const SeparatedColumn = styled(Column, {
   },
 });
 
+const Directory = styled("section", {
+  base: {
+    width: "100%",
+    maxWidth: "960px",
+    display: "flex",
+    flexDirection: "column",
+    gap: "16px",
+  },
+});
+const DirectoryHeading = styled("h2", {
+  base: {
+    ...typography.raw({ class: "headline" }),
+    margin: 0,
+  },
+});
+const DirectoryGrid = styled("div", {
+  base: {
+    display: "grid",
+    width: "100%",
+    gap: "16px",
+    gridTemplateColumns: "repeat(auto-fit, minmax(280px, 1fr))",
+  },
+});
+const DirectoryCard = styled("div", {
+  base: {
+    padding: "16px",
+    borderRadius: "var(--borderRadius-lg)",
+    background: "var(--md-sys-color-surface-container-low)",
+    display: "flex",
+    flexDirection: "column",
+    gap: "8px",
+  },
+});
+const DirectoryTitle = styled("div", {
+  base: {
+    ...typography.raw({ class: "title" }),
+    color: "var(--md-sys-color-on-surface)",
+  },
+});
+const ChannelList = styled("div", {
+  base: {
+    display: "flex",
+    flexWrap: "wrap",
+    gap: "8px",
+  },
+});
+const ChannelPill = styled("button", {
+  base: {
+    border: "none",
+    cursor: "pointer",
+    padding: "6px 12px",
+    borderRadius: "999px",
+    background: "var(--md-sys-color-surface-container-high)",
+    color: "var(--md-sys-color-on-surface)",
+    ...typography.raw({ class: "label", size: "small" }),
+  },
+});
+const EmptyState = styled("p", {
+  base: {
+    margin: 0,
+    color: "var(--md-sys-color-on-surface-variant)",
+  },
+});
+
 /**
  * Home page
  */
@@ -101,6 +165,13 @@ export function HomePage() {
   const isInLounge =
     client()!.servers.get("01F7ZSBSFHQ8TA81725KQCSDDP") !== undefined;
 
+  const serverDirectory = createMemo(() =>
+    [...client()!.servers.values()].map((server) => ({
+      server,
+      channels: server.orderedChannels.flatMap((category) => category.channels),
+    })),
+  );
+
   return (
     <Base>
       <Header placement="primary">
@@ -112,7 +183,7 @@ export function HomePage() {
       <div use:scrollable={{ class: content() }}>
         <Column>
           <span class={typography({ class: "headline" })}>
-            <Trans>Welcome to</Trans>
+            Welcome to the Stairway To Gray Testing Server
           </span>
           <Wordmark
             class={css({
@@ -236,6 +307,47 @@ export function HomePage() {
             </CategoryButton>
           </SeparatedColumn>
         </Buttons>
+        <Directory>
+          <DirectoryHeading>Channel Directory</DirectoryHeading>
+          <DirectoryGrid>
+            <Show
+              when={serverDirectory().length}
+              fallback={<EmptyState>No servers available yet.</EmptyState>}
+            >
+              <For each={serverDirectory()}>
+                {({ server, channels }) => (
+                  <DirectoryCard>
+                    <DirectoryTitle>{server.name}</DirectoryTitle>
+                    <Show
+                      when={channels.length}
+                      fallback={
+                        <EmptyState>This server has no channels yet.</EmptyState>
+                      }
+                    >
+                      <ChannelList>
+                        <For each={channels}>
+                          {(channel) => (
+                            <ChannelPill
+                              type="button"
+                              onClick={() =>
+                                navigate(
+                                  `/server/${server.id}/channel/${channel.id}`,
+                                )
+                              }
+                            >
+                              {channel.isVoice ? "🔊" : "#"}{" "}
+                              {channel.name ?? channel.id}
+                            </ChannelPill>
+                          )}
+                        </For>
+                      </ChannelList>
+                    </Show>
+                  </DirectoryCard>
+                )}
+              </For>
+            </Show>
+          </DirectoryGrid>
+        </Directory>
         <Show when={IS_DEV}>
           <Button onPress={() => navigate("/dev")}>
             Open Development Page
