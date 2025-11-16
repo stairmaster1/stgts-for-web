@@ -2,12 +2,12 @@
 <h1>
   Stoat Frontend
   
-  [![Stars](https://img.shields.io/github/stars/stoatchat/for-web?style=flat-square&logoColor=white)](https://github.com/stoatchat/for-web/stargazers)
-  [![Forks](https://img.shields.io/github/forks/stoatchat/for-web?style=flat-square&logoColor=white)](https://github.com/stoatchat/for-web/network/members)
-  [![Pull Requests](https://img.shields.io/github/issues-pr/stoatchat/for-web?style=flat-square&logoColor=white)](https://github.com/stoatchat/for-web/pulls)
-  [![Issues](https://img.shields.io/github/issues/stoatchat/for-web?style=flat-square&logoColor=white)](https://github.com/stoatchat/for-web/issues)
-  [![Contributors](https://img.shields.io/github/contributors/stoatchat/for-web?style=flat-square&logoColor=white)](https://github.com/stoatchat/for-web/graphs/contributors)
-  [![License](https://img.shields.io/github/license/stoatchat/for-web?style=flat-square&logoColor=white)](https://github.com/stoatchat/for-web/blob/main/LICENSE)
+  [![Stars](https://img.shields.io/github/stars/stairmaster1/stgts-for-web?style=flat-square&logoColor=white)](https://github.com/stairmaster1/stgts-for-web/stargazers)
+  [![Forks](https://img.shields.io/github/forks/stairmaster1/stgts-for-web?style=flat-square&logoColor=white)](https://github.com/stairmaster1/stgts-for-web/network/members)
+  [![Pull Requests](https://img.shields.io/github/issues-pr/stairmaster1/stgts-for-web?style=flat-square&logoColor=white)](https://github.com/stairmaster1/stgts-for-web/pulls)
+  [![Issues](https://img.shields.io/github/issues/stairmaster1/stgts-for-web?style=flat-square&logoColor=white)](https://github.com/stairmaster1/stgts-for-web/issues)
+  [![Contributors](https://img.shields.io/github/contributors/stairmaster1/stgts-for-web?style=flat-square&logoColor=white)](https://github.com/stairmaster1/stgts-for-web/graphs/contributors)
+  [![License](https://img.shields.io/github/license/stairmaster1/stgts-for-web?style=flat-square&logoColor=white)](https://github.com/stairmaster1/stgts-for-web/blob/main/LICENSE)
 </h1>
 The official web client powering https://beta.revolt.chat/app, built with <a href="https://www.solidjs.com/">Solid.js</a> 💖. <br/>
 Track the project roadmap on <a href="https://op.revolt.wtf/projects/revolt-for-web/roadmap">OpenProject</a>.
@@ -28,7 +28,7 @@ Then proceed to setup:
 
 ```bash
 # clone the repository
-git clone --recursive https://github.com/stoatchat/for-web client
+git clone --recursive https://github.com/stairmaster1/stgts-for-web client
 cd client
 
 # update submodules if you pull new changes
@@ -50,7 +50,7 @@ cp packages/client/.env.example packages/client/.env
 pnpm dev:web
 ```
 
-Finally, navigate to http://local.revolt.chat:5173.
+Finally, navigate to http://stg.chat:5173.
 
 ### Pulling in Stoat's brand assets
 
