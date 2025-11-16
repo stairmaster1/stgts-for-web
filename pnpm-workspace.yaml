@@ -3,9 +3,7 @@ packages:
   - packages/stoat.js
   - packages/solid-livekit-components
   - packages/solid-dnd-directive
-  - packages/js-lingui-solid/packages/jest-mocks
-  - packages/js-lingui-solid/packages/babel-plugin-extract-messages
-  - packages/js-lingui-solid/packages/babel-plugin-lingui-macro
+  - packages/js-lingui-solid/packages/*
 nodeLinker: isolated
 onlyBuiltDependencies:
   - '@swc/core'
