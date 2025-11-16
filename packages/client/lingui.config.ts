@@ -16,7 +16,7 @@ const require = createRequire(import.meta.url);
 
 const resolveExtractor = () => {
   try {
-    return require.resolve('@lingui-solid/babel-plugin-extract-messages/extractor');
+    return require('@lingui-solid/babel-plugin-extract-messages/extractor');
   } catch (error) {
     if (
       !(error instanceof Error) ||
@@ -41,7 +41,7 @@ const resolveExtractor = () => {
   for (const candidate of candidates) {
     try {
       require.resolve(candidate);
-      return candidate;
+      return require(candidate);
     } catch (candidateError) {
       if (
         !(candidateError instanceof Error) ||
@@ -52,14 +52,13 @@ const resolveExtractor = () => {
     }
   }
 
-  throw new Error(
-    'Unable to locate @lingui-solid/babel-plugin-extract-messages extractor. Did you clone the js-lingui-solid workspace?',
+  console.warn(
+    '[lingui] extractor not found; skipping message extraction (ensure js-lingui-solid is checked out for full tooling).',
   );
+  return undefined;
 };
 
-const extractorModule = require(resolveExtractor());
-const linguiExtractor =
-  extractorModule.extractor ?? extractorModule.default ?? extractorModule;
+const linguiExtractor = resolveExtractor();
 
 export default defineConfig({
   sourceLocale: "en",
@@ -69,13 +68,13 @@ export default defineConfig({
       path: "<rootDir>/components/i18n/catalogs/{locale}/messages",
       include: ["src", "components"],
       exclude: ["**/node_modules/**", "**/i18n/locales/**"],
-      extractor: linguiExtractor,
+      ...(linguiExtractor ? { extractor: linguiExtractor } : {}),
     },
   ],
   runtimeConfigModule: {
     Trans: ["@lingui-solid/solid", "Trans"],
     useLingui: ["@lingui-solid/solid", "useLingui"],
-    extractors: [extractor],
+    ...(linguiExtractor ? { extractors: [linguiExtractor] } : {}),
   },
   ...(supressWarningIfWereNotInLinguiExtract
     ? {}
