@@ -13,6 +13,8 @@ RUN if [ ! -d packages/client/assets ] || [ -z "$(ls -A packages/client/assets 2
 RUN corepack enable \
  && pnpm install --frozen-lockfile
 
+RUN pnpm --filter client run lingui:compile
+
 RUN pnpm --filter '!client' -r --if-present build
 
 RUN pnpm --filter client run build:prod
