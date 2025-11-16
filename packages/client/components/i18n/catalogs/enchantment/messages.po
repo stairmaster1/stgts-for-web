@@ -795,7 +795,7 @@ msgstr "ᓵ∷ᒷᔑℸᒷ"
 #~ msgid "Create a group"
 #~ msgstr "ᓵ∷ᒷᔑℸᒷ ᔑ ⊣∷𝙹⚍!¡"
 
-#: src/interface/Home.tsx:141
+#: src/interface/Home.tsx:212
 msgid "Create a group or server"
 msgstr ""
 
@@ -1024,7 +1024,7 @@ msgstr ""
 msgid "Discord RPC"
 msgstr ""
 
-#: src/interface/Home.tsx:206
+#: src/interface/Home.tsx:277
 msgid "Discover Stoat"
 msgstr ""
 
@@ -1052,7 +1052,7 @@ msgstr ""
 msgid "Don't notify others that you've left"
 msgstr ""
 
-#: src/interface/Home.tsx:192
+#: src/interface/Home.tsx:263
 msgid "Donate to Stoat"
 msgstr ""
 
@@ -1221,7 +1221,7 @@ msgstr "⎓ᔑ╎ꖎᒷ↸ ℸ𝙹 ⍊ᒷ∷╎⎓||!"
 msgid "Feedback"
 msgstr "⎓ᒷᒷ↸ʖᔑᓵꖌ"
 
-#: src/interface/Home.tsx:200
+#: src/interface/Home.tsx:271
 msgid "Find a community based on your hobbies or interests."
 msgstr "⎓╎リ↸ ᔑ ᓵ𝙹ᒲᒲ⚍リ╎ℸ|| ʖᔑᓭᒷ↸ 𝙹リ ||𝙹⚍∷ ⍑𝙹ʖʖ╎ᒷᓭ 𝙹∷ ╎リℸᒷ∷ᒷᓭℸᓭ."
 
@@ -1290,7 +1290,7 @@ msgstr ""
 msgid "Get active recovery codes"
 msgstr ""
 
-#: src/interface/Home.tsx:224
+#: src/interface/Home.tsx:295
 msgid "Give feedback on Stoat"
 msgstr ""
 
@@ -1310,7 +1310,7 @@ msgstr "⊣𝙹 ʖᔑᓵꖌ ℸ𝙹 ꖎ𝙹⊣╎リ"
 msgid "Go to account settings to edit your username"
 msgstr ""
 
-#: src/interface/Home.tsx:155
+#: src/interface/Home.tsx:226
 msgid "Go to the Stoat Lounge"
 msgstr ""
 
@@ -1367,7 +1367,7 @@ msgstr ""
 msgid "High Contrast"
 msgstr ""
 
-#: src/interface/Home.tsx:110
+#: src/interface/Home.tsx:181
 #: src/interface/navigation/channels/HomeSidebar.tsx:83
 msgid "Home"
 msgstr "⍑𝙹ᒲᒷ"
@@ -1411,7 +1411,7 @@ msgstr ""
 msgid "Invisible"
 msgstr "╎リ⍊╎ᓭ╎ʖꖎᒷ"
 
-#: src/interface/Home.tsx:134
+#: src/interface/Home.tsx:205
 msgid "Invite all of your friends, some cool bots, and throw a big party."
 msgstr "╎リ⍊╎ℸᒷ ᔑꖎꖎ 𝙹⎓ ||𝙹⚍∷ ⎓∷╎ᒷリ↸ᓭ, ᓭ𝙹ᒲᒷ ᓵ𝙹𝙹ꖎ ʖ𝙹ℸᓭ, ᔑリ↸ ℸ⍑∷𝙹∴ ᔑ ʖ╎⊣ !¡ᔑ∷ℸ||."
 
@@ -1460,7 +1460,7 @@ msgstr ""
 #~ msgid "Join call"
 #~ msgstr ""
 
-#: src/interface/Home.tsx:176
+#: src/interface/Home.tsx:247
 #: components/app/interface/settings/user/Feedback.tsx:91
 msgid "Join the Stoat Lounge"
 msgstr ""
@@ -1551,7 +1551,7 @@ msgstr "ꖎᒷᔑ⍊ᒷ ᓭᒷ∷⍊ᒷ∷"
 msgid "Let Stoat use its own custom titlebar."
 msgstr ""
 
-#: src/interface/Home.tsx:218
+#: src/interface/Home.tsx:289
 msgid "Let us know how we can improve our app by giving us feedback."
 msgstr "ꖎᒷℸ ⚍ᓭ ꖌリ𝙹∴ ⍑𝙹∴ ∴ᒷ ᓵᔑリ ╎ᒲ!¡∷𝙹⍊ᒷ 𝙹⚍∷ ᔑ!¡!¡ ʖ|| ⊣╎⍊╎リ⊣ ⚍ᓭ ⎓ᒷᒷ↸ʖᔑᓵꖌ."
 
@@ -1947,7 +1947,7 @@ msgstr ""
 msgid "Open server settings"
 msgstr ""
 
-#: src/interface/Home.tsx:235
+#: src/interface/Home.tsx:306
 msgid "Open settings"
 msgstr "𝙹!¡ᒷリ ᓭᒷℸℸ╎リ⊣ᓭ"
 
@@ -2525,7 +2525,7 @@ msgstr ""
 msgid "Suggest new Stoat features on GitHub discussions."
 msgstr ""
 
-#: src/interface/Home.tsx:188
+#: src/interface/Home.tsx:259
 msgid "Support the project by donating - thank you!"
 msgstr "ᓭ⚍!¡!¡𝙹∷ℸ ℸ⍑ᒷ !¡∷𝙹⋮ᒷᓵℸ ʖ|| ↸𝙹リᔑℸ╎リ⊣ - ℸ⍑ᔑリꖌ ||𝙹⚍!"
 
@@ -2885,7 +2885,6 @@ msgstr ""
 msgid "Webhooks"
 msgstr "∴ᒷʖ⍑𝙹𝙹ꖌᓭ"
 
-#: src/interface/Home.tsx:115
 #: components/auth/src/flows/FlowLogin.tsx:104
 msgid "Welcome to"
 msgstr "∴ᒷꖎᓵ𝙹ᒲᒷ ℸ𝙹"
@@ -2931,7 +2930,7 @@ msgstr ""
 msgid "You are banned from this server."
 msgstr ""
 
-#: src/interface/Home.tsx:229
+#: src/interface/Home.tsx:300
 msgid "You can also click the gear icon in the bottom left."
 msgstr ""
 
@@ -2943,8 +2942,8 @@ msgstr ""
 msgid "You can re-open it later, but it will disappear on both sides."
 msgstr "||𝙹⚍ ᓵᔑリ ∷ᒷ-𝙹!¡ᒷリ ╎ℸ ꖎᔑℸᒷ∷, ʖ⚍ℸ ╎ℸ ∴╎ꖎꖎ ↸╎ᓭᔑ!¡!¡ᒷᔑ∷ 𝙹リ ʖ𝙹ℸ⍑ ᓭ╎↸ᒷᓭ."
 
-#: src/interface/Home.tsx:148
-#: src/interface/Home.tsx:169
+#: src/interface/Home.tsx:219
+#: src/interface/Home.tsx:240
 #: components/app/interface/settings/user/Feedback.tsx:85
 msgid "You can report issues and discuss improvements with us directly here."
 msgstr "||𝙹⚍ ᓵᔑリ ∷ᒷ!¡𝙹∷ℸ ╎ᓭᓭ⚍ᒷᓭ ᔑリ↸ ↸╎ᓭᓵ⚍ᓭᓭ ╎ᒲ!¡∷𝙹⍊ᒷᒲᒷリℸᓭ ∴╎ℸ⍑ ⚍ᓭ ↸╎∷ᒷᓵℸꖎ|| ⍑ᒷ∷ᒷ."

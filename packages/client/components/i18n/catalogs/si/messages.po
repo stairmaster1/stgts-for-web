@@ -795,7 +795,7 @@ msgstr "සාදන්න"
 #~ msgid "Create a group"
 #~ msgstr "සමූහයක් සාදන්න"
 
-#: src/interface/Home.tsx:141
+#: src/interface/Home.tsx:212
 msgid "Create a group or server"
 msgstr ""
 
@@ -1024,7 +1024,7 @@ msgstr ""
 msgid "Discord RPC"
 msgstr ""
 
-#: src/interface/Home.tsx:206
+#: src/interface/Home.tsx:277
 msgid "Discover Stoat"
 msgstr ""
 
@@ -1052,7 +1052,7 @@ msgstr ""
 msgid "Don't notify others that you've left"
 msgstr ""
 
-#: src/interface/Home.tsx:192
+#: src/interface/Home.tsx:263
 msgid "Donate to Stoat"
 msgstr ""
 
@@ -1221,7 +1221,7 @@ msgstr "සත්‍යාපනයට නොහැකි විය!"
 msgid "Feedback"
 msgstr "ප්‍රතිපෝෂණය"
 
-#: src/interface/Home.tsx:200
+#: src/interface/Home.tsx:271
 msgid "Find a community based on your hobbies or interests."
 msgstr "ඔබේ විනෝදාංශ හෝ රුචිකත්වයන් මත පදනම්ව ප්‍රජාවක් සොයා ගන්න."
 
@@ -1290,7 +1290,7 @@ msgstr ""
 msgid "Get active recovery codes"
 msgstr ""
 
-#: src/interface/Home.tsx:224
+#: src/interface/Home.tsx:295
 msgid "Give feedback on Stoat"
 msgstr ""
 
@@ -1310,7 +1310,7 @@ msgstr "පිවිසුමට ආපසු යන්න"
 msgid "Go to account settings to edit your username"
 msgstr ""
 
-#: src/interface/Home.tsx:155
+#: src/interface/Home.tsx:226
 msgid "Go to the Stoat Lounge"
 msgstr ""
 
@@ -1367,7 +1367,7 @@ msgstr ""
 msgid "High Contrast"
 msgstr ""
 
-#: src/interface/Home.tsx:110
+#: src/interface/Home.tsx:181
 #: src/interface/navigation/channels/HomeSidebar.tsx:83
 msgid "Home"
 msgstr "මුල"
@@ -1411,7 +1411,7 @@ msgstr ""
 msgid "Invisible"
 msgstr "අදෘශ්‍යමානයි"
 
-#: src/interface/Home.tsx:134
+#: src/interface/Home.tsx:205
 msgid "Invite all of your friends, some cool bots, and throw a big party."
 msgstr "ඔබගේ සියලු මිතුරන්ට ආරාධනා කරන්න, නියම රොබෝලා කිහිපයකට, සහ විශාල සාදයක් පවත්වන්න."
 
@@ -1460,7 +1460,7 @@ msgstr ""
 #~ msgid "Join call"
 #~ msgstr ""
 
-#: src/interface/Home.tsx:176
+#: src/interface/Home.tsx:247
 #: components/app/interface/settings/user/Feedback.tsx:91
 msgid "Join the Stoat Lounge"
 msgstr ""
@@ -1551,7 +1551,7 @@ msgstr "සේවාදායකය හැරයන්න"
 msgid "Let Stoat use its own custom titlebar."
 msgstr ""
 
-#: src/interface/Home.tsx:218
+#: src/interface/Home.tsx:289
 msgid "Let us know how we can improve our app by giving us feedback."
 msgstr "අපට ප්‍රතිපෝෂණ ලබා දීමෙන් අපගේ යෙදුම වැඩිදියුණු කළ හැකි ආකාරය අපට දන්වන්න."
 
@@ -1947,7 +1947,7 @@ msgstr ""
 msgid "Open server settings"
 msgstr ""
 
-#: src/interface/Home.tsx:235
+#: src/interface/Home.tsx:306
 msgid "Open settings"
 msgstr "සැකසුම් අරින්න"
 
@@ -2525,7 +2525,7 @@ msgstr ""
 msgid "Suggest new Stoat features on GitHub discussions."
 msgstr ""
 
-#: src/interface/Home.tsx:188
+#: src/interface/Home.tsx:259
 msgid "Support the project by donating - thank you!"
 msgstr "මෙම ව්‍යාපෘතියට පරිත්‍යාග කිරීමෙන් උදව් වන්න - ස්තූතියි!"
 
@@ -2885,7 +2885,6 @@ msgstr ""
 msgid "Webhooks"
 msgstr "වෙබ්කොකු"
 
-#: src/interface/Home.tsx:115
 #: components/auth/src/flows/FlowLogin.tsx:104
 msgid "Welcome to"
 msgstr "සාදරයෙන් පිළිගනිමු"
@@ -2931,7 +2930,7 @@ msgstr ""
 msgid "You are banned from this server."
 msgstr ""
 
-#: src/interface/Home.tsx:229
+#: src/interface/Home.tsx:300
 msgid "You can also click the gear icon in the bottom left."
 msgstr ""
 
@@ -2943,8 +2942,8 @@ msgstr ""
 msgid "You can re-open it later, but it will disappear on both sides."
 msgstr "ඔබට එය පසුව නැවත විවෘත කළ හැක, නමුත් එය දෙපැත්තෙන්ම අතුරුදහන් වනු ඇත."
 
-#: src/interface/Home.tsx:148
-#: src/interface/Home.tsx:169
+#: src/interface/Home.tsx:219
+#: src/interface/Home.tsx:240
 #: components/app/interface/settings/user/Feedback.tsx:85
 msgid "You can report issues and discuss improvements with us directly here."
 msgstr "ඔබට ගැටළු වාර්තා කිරීමට සහ වැඩිදියුණු කිරීම් පිළිබඳව අප සමඟ සෘජුවම මෙහි සාකච්ඡා කළ හැකිය."

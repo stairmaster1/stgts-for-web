@@ -795,7 +795,7 @@ msgstr "C23473"
 #~ msgid "Create a group"
 #~ msgstr "C23473 4 620UP"
 
-#: src/interface/Home.tsx:141
+#: src/interface/Home.tsx:212
 msgid "Create a group or server"
 msgstr ""
 
@@ -1024,7 +1024,7 @@ msgstr ""
 msgid "Discord RPC"
 msgstr ""
 
-#: src/interface/Home.tsx:206
+#: src/interface/Home.tsx:277
 msgid "Discover Stoat"
 msgstr ""
 
@@ -1052,7 +1052,7 @@ msgstr ""
 msgid "Don't notify others that you've left"
 msgstr ""
 
-#: src/interface/Home.tsx:192
+#: src/interface/Home.tsx:263
 msgid "Donate to Stoat"
 msgstr ""
 
@@ -1221,7 +1221,7 @@ msgstr "F41L3D 70 V321FY!"
 msgid "Feedback"
 msgstr "F33D84CK"
 
-#: src/interface/Home.tsx:200
+#: src/interface/Home.tsx:271
 msgid "Find a community based on your hobbies or interests."
 msgstr "F1ND 4 C0MMUN17Y 8453D 0N Y0U2 H088135 02 1N7323575."
 
@@ -1290,7 +1290,7 @@ msgstr ""
 msgid "Get active recovery codes"
 msgstr ""
 
-#: src/interface/Home.tsx:224
+#: src/interface/Home.tsx:295
 msgid "Give feedback on Stoat"
 msgstr ""
 
@@ -1310,7 +1310,7 @@ msgstr "60 84CK 70 L061N"
 msgid "Go to account settings to edit your username"
 msgstr ""
 
-#: src/interface/Home.tsx:155
+#: src/interface/Home.tsx:226
 msgid "Go to the Stoat Lounge"
 msgstr ""
 
@@ -1367,7 +1367,7 @@ msgstr ""
 msgid "High Contrast"
 msgstr ""
 
-#: src/interface/Home.tsx:110
+#: src/interface/Home.tsx:181
 #: src/interface/navigation/channels/HomeSidebar.tsx:83
 msgid "Home"
 msgstr "H0M3"
@@ -1411,7 +1411,7 @@ msgstr ""
 msgid "Invisible"
 msgstr "1NV1518L3"
 
-#: src/interface/Home.tsx:134
+#: src/interface/Home.tsx:205
 msgid "Invite all of your friends, some cool bots, and throw a big party."
 msgstr "1NV173 4LL 0F Y0U2 F213ND5, 50M3 C00L 8075, 4ND 7H20W 4 816 P427Y."
 
@@ -1460,7 +1460,7 @@ msgstr ""
 #~ msgid "Join call"
 #~ msgstr ""
 
-#: src/interface/Home.tsx:176
+#: src/interface/Home.tsx:247
 #: components/app/interface/settings/user/Feedback.tsx:91
 msgid "Join the Stoat Lounge"
 msgstr ""
@@ -1551,7 +1551,7 @@ msgstr "L34V3 532V32"
 msgid "Let Stoat use its own custom titlebar."
 msgstr ""
 
-#: src/interface/Home.tsx:218
+#: src/interface/Home.tsx:289
 msgid "Let us know how we can improve our app by giving us feedback."
 msgstr "L37 U5 KN0W H0W W3 C4N 1MP20V3 0U2 4PP 8Y 61V1N6 U5 F33D84CK."
 
@@ -1947,7 +1947,7 @@ msgstr ""
 msgid "Open server settings"
 msgstr ""
 
-#: src/interface/Home.tsx:235
+#: src/interface/Home.tsx:306
 msgid "Open settings"
 msgstr "0P3N 53771N65"
 
@@ -2525,7 +2525,7 @@ msgstr ""
 msgid "Suggest new Stoat features on GitHub discussions."
 msgstr ""
 
-#: src/interface/Home.tsx:188
+#: src/interface/Home.tsx:259
 msgid "Support the project by donating - thank you!"
 msgstr "5UPP027 7H3 P20J3C7 8Y D0N471N6 - 7H4NK Y0U!"
 
@@ -2885,7 +2885,6 @@ msgstr ""
 msgid "Webhooks"
 msgstr "W38H00K5"
 
-#: src/interface/Home.tsx:115
 #: components/auth/src/flows/FlowLogin.tsx:104
 msgid "Welcome to"
 msgstr "W3LC0M3 70"
@@ -2931,7 +2930,7 @@ msgstr ""
 msgid "You are banned from this server."
 msgstr ""
 
-#: src/interface/Home.tsx:229
+#: src/interface/Home.tsx:300
 msgid "You can also click the gear icon in the bottom left."
 msgstr ""
 
@@ -2943,8 +2942,8 @@ msgstr ""
 msgid "You can re-open it later, but it will disappear on both sides."
 msgstr "Y0U C4N 23-0P3N 17 L4732, 8U7 17 W1LL D154PP342 0N 807H 51D35."
 
-#: src/interface/Home.tsx:148
-#: src/interface/Home.tsx:169
+#: src/interface/Home.tsx:219
+#: src/interface/Home.tsx:240
 #: components/app/interface/settings/user/Feedback.tsx:85
 msgid "You can report issues and discuss improvements with us directly here."
 msgstr "Y0U C4N 23P027 155U35 4ND D15CU55 1MP20V3M3N75 W17H U5 D123C7LY H323."
