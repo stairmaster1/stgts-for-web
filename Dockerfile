@@ -3,6 +3,13 @@ ENV COREPACK_ENABLE_DOWNLOAD_PROMPT=0
 WORKDIR /app
 COPY package.json pnpm-lock.yaml pnpm-workspace.yaml ./
 COPY packages ./packages
+
+# populate assets from the bundled fallback when the submodule is missing
+RUN if [ ! -d packages/client/assets ] || [ -z "$(ls -A packages/client/assets 2>/dev/null)" ]; then \
+      rm -rf packages/client/assets && \
+      cp -r packages/client/scripts/assets_fallback packages/client/assets; \
+    fi
+
 RUN corepack enable \
  && pnpm install --frozen-lockfile \
  && pnpm build:prod
