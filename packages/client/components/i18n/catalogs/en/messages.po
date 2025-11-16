@@ -795,7 +795,7 @@ msgstr "Create"
 #~ msgid "Create a group"
 #~ msgstr "Create a group"
 
-#: src/interface/Home.tsx:141
+#: src/interface/Home.tsx:212
 msgid "Create a group or server"
 msgstr "Create a group or server"
 
@@ -1024,7 +1024,7 @@ msgstr "Disconnected"
 msgid "Discord RPC"
 msgstr "Discord RPC"
 
-#: src/interface/Home.tsx:206
+#: src/interface/Home.tsx:277
 msgid "Discover Stoat"
 msgstr "Discover Stoat"
 
@@ -1052,7 +1052,7 @@ msgstr "Don't ask me again for "
 msgid "Don't notify others that you've left"
 msgstr "Don't notify others that you've left"
 
-#: src/interface/Home.tsx:192
+#: src/interface/Home.tsx:263
 msgid "Donate to Stoat"
 msgstr "Donate to Stoat"
 
@@ -1221,7 +1221,7 @@ msgstr "Failed to verify!"
 msgid "Feedback"
 msgstr "Feedback"
 
-#: src/interface/Home.tsx:200
+#: src/interface/Home.tsx:271
 msgid "Find a community based on your hobbies or interests."
 msgstr "Find a community based on your hobbies or interests."
 
@@ -1290,7 +1290,7 @@ msgstr "Get a new set of recovery codes"
 msgid "Get active recovery codes"
 msgstr "Get active recovery codes"
 
-#: src/interface/Home.tsx:224
+#: src/interface/Home.tsx:295
 msgid "Give feedback on Stoat"
 msgstr "Give feedback on Stoat"
 
@@ -1310,7 +1310,7 @@ msgstr "Go back to login"
 msgid "Go to account settings to edit your username"
 msgstr "Go to account settings to edit your username"
 
-#: src/interface/Home.tsx:155
+#: src/interface/Home.tsx:226
 msgid "Go to the Stoat Lounge"
 msgstr "Go to the Stoat Lounge"
 
@@ -1367,7 +1367,7 @@ msgstr "Here is your new invite code: <0>{0}</0>"
 msgid "High Contrast"
 msgstr "High Contrast"
 
-#: src/interface/Home.tsx:110
+#: src/interface/Home.tsx:181
 #: src/interface/navigation/channels/HomeSidebar.tsx:83
 msgid "Home"
 msgstr "Home"
@@ -1411,7 +1411,7 @@ msgstr "Interface Font"
 msgid "Invisible"
 msgstr "Invisible"
 
-#: src/interface/Home.tsx:134
+#: src/interface/Home.tsx:205
 msgid "Invite all of your friends, some cool bots, and throw a big party."
 msgstr "Invite all of your friends, some cool bots, and throw a big party."
 
@@ -1460,7 +1460,7 @@ msgstr "Join a server"
 #~ msgid "Join call"
 #~ msgstr "Join call"
 
-#: src/interface/Home.tsx:176
+#: src/interface/Home.tsx:247
 #: components/app/interface/settings/user/Feedback.tsx:91
 msgid "Join the Stoat Lounge"
 msgstr "Join the Stoat Lounge"
@@ -1551,7 +1551,7 @@ msgstr "Leave server"
 msgid "Let Stoat use its own custom titlebar."
 msgstr "Let Stoat use its own custom titlebar."
 
-#: src/interface/Home.tsx:218
+#: src/interface/Home.tsx:289
 msgid "Let us know how we can improve our app by giving us feedback."
 msgstr "Let us know how we can improve our app by giving us feedback."
 
@@ -1947,7 +1947,7 @@ msgstr "Open file"
 msgid "Open server settings"
 msgstr "Open server settings"
 
-#: src/interface/Home.tsx:235
+#: src/interface/Home.tsx:306
 msgid "Open settings"
 msgstr "Open settings"
 
@@ -2525,7 +2525,7 @@ msgstr "Subscriptions"
 msgid "Suggest new Stoat features on GitHub discussions."
 msgstr "Suggest new Stoat features on GitHub discussions."
 
-#: src/interface/Home.tsx:188
+#: src/interface/Home.tsx:259
 msgid "Support the project by donating - thank you!"
 msgstr "Support the project by donating - thank you!"
 
@@ -2885,7 +2885,6 @@ msgstr "Webhook Name"
 msgid "Webhooks"
 msgstr "Webhooks"
 
-#: src/interface/Home.tsx:115
 #: components/auth/src/flows/FlowLogin.tsx:104
 msgid "Welcome to"
 msgstr "Welcome to"
@@ -2931,7 +2930,7 @@ msgstr "You are about to kick {0}"
 msgid "You are banned from this server."
 msgstr "You are banned from this server."
 
-#: src/interface/Home.tsx:229
+#: src/interface/Home.tsx:300
 msgid "You can also click the gear icon in the bottom left."
 msgstr "You can also click the gear icon in the bottom left."
 
@@ -2943,8 +2942,8 @@ msgstr "You can also click the gear icon in the bottom left."
 msgid "You can re-open it later, but it will disappear on both sides."
 msgstr "You can re-open it later, but it will disappear on both sides."
 
-#: src/interface/Home.tsx:148
-#: src/interface/Home.tsx:169
+#: src/interface/Home.tsx:219
+#: src/interface/Home.tsx:240
 #: components/app/interface/settings/user/Feedback.tsx:85
 msgid "You can report issues and discuss improvements with us directly here."
 msgstr "You can report issues and discuss improvements with us directly here."
