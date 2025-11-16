@@ -1,0 +1,14 @@
+FROM node:22-alpine AS build
+ENV COREPACK_ENABLE_DOWNLOAD_PROMPT=0
+WORKDIR /app
+COPY package.json pnpm-lock.yaml pnpm-workspace.yaml ./
+COPY packages ./packages
+RUN corepack enable \
+ && pnpm install --frozen-lockfile \
+ && pnpm build:prod
+
+FROM caddy:2.9-alpine
+WORKDIR /srv
+COPY --from=build /app/packages/client/dist ./dist
+EXPOSE 5000
+CMD ["caddy", "file-server", "--root", "/srv/dist", "--listen", ":5000"]
