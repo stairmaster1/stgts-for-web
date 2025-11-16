@@ -11,8 +11,11 @@ RUN if [ ! -d packages/client/assets ] || [ -z "$(ls -A packages/client/assets 2
     fi
 
 RUN corepack enable \
- && pnpm install --frozen-lockfile \
- && pnpm build:prod
+ && pnpm install --frozen-lockfile
+
+RUN pnpm -r --if-present build
+
+RUN pnpm build:prod
 
 FROM caddy:2.9-alpine
 WORKDIR /srv
