@@ -4,6 +4,7 @@ packages:
   - packages/solid-livekit-components
   - packages/solid-dnd-directive
   - packages/js-lingui-solid
+  - packages/js-lingui-solid/packages/*
 nodeLinker: isolated
 onlyBuiltDependencies:
   - '@swc/core'
